@@ -1,6 +1,21 @@
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-jupyter
+# Data Handling and Analysis
+pandas==2.1.4
+numpy==1.26.2
+
+# Machine Learning
+scikit-learn==1.3.2
+lightgbm==4.2.0
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Data I/O and Persistence
+pyarrow==14.0.2  # For fast Parquet/Feather if needed, good standard
+openpyxl==3.1.2  # For reading/writing .xlsx files
+
+# SQL Connectivity (Choose one based on your SQL Server setup)
+# For pyodbc (Windows/Linux/macOS)
+# pyodbc==5.0.1
+# For mssql-tools on Linux or macOS (requires driver installation)
+# sqlclient==1.0.0
