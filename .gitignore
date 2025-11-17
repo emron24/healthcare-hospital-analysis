@@ -1,27 +1,30 @@
-# Virtual environments
-venv/
-.env/
-
-# Python cache
+# Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# Jupyter notebook checkpoints
 .ipynb_checkpoints/
+venv/
+.venv/
+.mypy_cache/
 
-# Data files (raw datasets should not be pushed)
-data/raw/
-*.csv
-*.xlsx
+# Data and Artifacts (Exclude raw/large files)
+/data/raw/
+/data/processed/*.csv
+/data/processed/*.parquet
+/data/processed/*.pkl
+/data/processed/*.joblib
+/data/processed/*.feather
 
-# Logs
-*.log
-
-# OS files
+# Tools/OS
 .DS_Store
 Thumbs.db
 
-# VS Code settings
-.vscode/
+# Power BI Files (The .pbix file itself can be large; commit screenshots/docs instead)
+/powerbi/*.pbix
+/powerbi/.temp/
+
+# Excel files (often binary and un-diffable)
+/excel/*.xlsx
+
+# Models and Logs
+*.model
+*.log
