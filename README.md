@@ -5,11 +5,9 @@ This project analyzes hospital readmission risk using real-world patient data. I
 ---
 
 ## 📦 Project Structure
-
-
+```
 HEALTHCARE-HOSPITAL-ANALYSIS/ ├── .vscode/ ├── data/ │ ├── raw/ │ │ ├── diabetic_data.csv │ │ └── IDS_mapping.csv │ └── processed/ │ └── patient_records_cleaned.csv ├── notebooks/ │ ├── 01_data_cleaning.ipynb │ ├── 02_exploratory_analysis.ipynb │ ├── 03_modeling.ipynb ├── sql/ │ ├── schema.sql │ ├── bulk_insert.sql │ └── analysis_queries.sql ├── excel/ │ ├── pivot-table.xlsx │ └── charts.xlsx ├── powerbi/ │ └── screenshots/ ├── docs/ │ └── visuals/ │ └── docs/ │ ├── age_comorbidity_heatmap.png │ ├── age_group_readmission.png │ ├── correlation_heatmap.png │ ├── diagnosis_category_readmission.png │ ├── lgbm_feature_importance1.png │ ├── los_bucket_readmission.png │ └── los_distribution.png ├── .gitignore ├── requirements.txt └── README.md
-
-
+```
 ---
 
 ## 🧠 Business Objective
