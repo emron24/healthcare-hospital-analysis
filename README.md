@@ -105,9 +105,19 @@ Hospital readmissions are costly and often preventable. This project identifies 
 
 ## 📊 Power BI Dashboard (`powerbi/`)
 
+## 📊 Power BI Dashboard
+
 - Interactive dashboard with slicers for Age, Diagnosis, LOS, and Prior Admissions
 - Visual storytelling aligned with Excel and SQL findings
 - Designed for clinical operations and executive review
+
+📄 [View the Dashboard Plan](powerbi/dashboard_plan.md)  
+
+This document outlines the 3-page narrative structure:
+1. **Readmission Overview & KPIs** — Executive Summary  
+2. **Risk Factor Deep Dive** — Core Analysis leveraging Python/SQL findings  
+3. **Model Performance & Interpretability** — Predictive model validation and actionable insights
+
 
 ---
 
