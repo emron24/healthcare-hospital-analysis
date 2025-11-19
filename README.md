@@ -40,6 +40,9 @@ HEALTHCARE-HOSPITAL-ANALYSIS/
 ├── powerbi/
 │   ├── healthcare_dashboard.pbix
 │   └── screenshots/
+           ├── page1_overview.png
+           ├── page2_risk_factors.png
+           └── page3_model_performance.png
 |
 └── sql/
     ├── analysis_queries.sql
