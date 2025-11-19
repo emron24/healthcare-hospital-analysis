@@ -9,7 +9,6 @@ This project analyzes hospital readmission risk using real-world patient data. I
 HEALTHCARE-HOSPITAL-ANALYSIS/
 
 ├── .vscode/
-
 |
 ├── data/
 │   ├── processed/
