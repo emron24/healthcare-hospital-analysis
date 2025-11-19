@@ -7,10 +7,9 @@ This project analyzes hospital readmission risk using real-world patient data. I
 ## 📦 Project Structure
 ```
 HEALTHCARE-HOSPITAL-ANALYSIS/
-├── .gitignore
+
 ├── .vscode/
-├── README.md
-├── requirements.txt
+
 |
 ├── data/
 │   ├── processed/
@@ -47,6 +46,9 @@ HEALTHCARE-HOSPITAL-ANALYSIS/
     ├── analysis_queries.sql
     ├── bulk_insert.sql
     └── schema.sql
+├── README.md
+├── requirements.txt
+├── .gitignore
 ```
 
 ## 🧠 Business Objective
