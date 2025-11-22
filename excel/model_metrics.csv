@@ -1,0 +1,3 @@
+Metric,Value
+ROC-AUC,0.6725
+PR-AUC,0.315
